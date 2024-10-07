@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Library - Transaction List</title>
+</head>
+<body>
+<h1>Book Transactions</h1>
+<a href="/transactions/new">Issue New Book</a>
+
+
+<!-- Button to delete closed transactions -->
+<form th:action="@{/transactions/delete-closed}" method="post" onsubmit="return confirm('Are you sure you want to delete all closed transactions?');">
+    <button type="submit">Delete Closed Transactions</button>
+</form>
+
+
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>User</th>
+        <th>Book</th>
+        <th>Issue Date</th>
+        <th>Return Date</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="transaction : ${transactions}">
+        <td th:text="${transaction.id}"></td>
+        <td th:text="${transaction.user.name}"></td>
+        <td th:text="${transaction.book.name}"></td>
+        <td th:text="${transaction.issueDate}"></td>
+        <td th:text="${transaction.returnDate}"></td>
+        <td th:text="${transaction.status} ? 'Issued' : 'Returned' "></td> <!-- Updated this line -->
+        <td>
+            <a th:href="@{/transactions/return/{id}(id=${transaction.id})}" th:if="${transaction.status}">Return Book</a>
+            <a th:href="@{/transactions/delete/{id}(id=${transaction.id})}" th:if="${!transaction.status}">Delete Book</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
