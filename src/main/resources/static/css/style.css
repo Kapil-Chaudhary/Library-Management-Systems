@@ -1,0 +1,19 @@
+
+body {
+    background-color: #f8f9fa; /* Light background for better contrast */
+}
+h1 {
+    color: #343a40; /* Darker title color */
+}
+
+.fixed-bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Positioning at the bottom */
+    z-index: 1030; /* Ensure it’s above other content */
+}
+
+.footer {
+    background-color: #343a40; /* Optional: matching footer color */
+}

@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d7bb352-53d6-4f05-99d3-4a7022bbc210" name="Changes" comment="1. Library-Management-System" />
+    <list default="true" id="9d7bb352-53d6-4f05-99d3-4a7022bbc210" name="Changes" comment="1. Library-Management-System">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/controller/practise/working.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/library.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/operations/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/CourselibraryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/CourselibraryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/courselibrary/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/issued-book-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/issued-book-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list-book.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/list-book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/transaction-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/transaction-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/application/courselibrary/CourselibraryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/courselibrary/CourselibraryApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/application/courselibrary/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/courselibrary/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/application/courselibrary/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/courselibrary/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/application/courselibrary/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/courselibrary/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/application/courselibrary/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/courselibrary/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/issued-book-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/issued-book-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/list-book.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/list-book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/transaction-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/transaction-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/user/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/user/list.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +63,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Kapil-Chaudhary/Library-Management-System.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Kapil-Chaudhary/Library-Management-Systems.git&quot;,
     &quot;accountId&quot;: &quot;9947e259-2f7f-497a-8b98-3aabafae3891&quot;
   }
 }</component>
@@ -66,11 +93,10 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.CourselibraryApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Practise/Library-Management-System",
+    "last_opened_file_path": "D:/Practise/my/Library-Management-System/src/main/resources/static/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,10 +108,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Practise\my\Library-Management-System\src\main\resources\static\images" />
       <recent name="C:\Users\DELL\Downloads\Library-Management-System-via-SpringBoot-main\src\main\resources\templates" />
       <recent name="C:\Users\DELL\Downloads\Library-Management-System-via-SpringBoot-main\src\main\java\com\application\courselibrary\service\impl" />
       <recent name="C:\Users\DELL\Downloads\Library-Management-System-via-SpringBoot-main\src\main\java\com\application\courselibrary\service" />
       <recent name="C:\Users\DELL\Downloads\Library-Management-System-via-SpringBoot-main\src\main\java\com\application\courselibrary\repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Practise\my\Library-Management-System\src\main\resources\static\css" />
+      <recent name="D:\Practise\my\Library-Management-System\src\main\resources\static\css\css" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.CourselibraryApplication">
@@ -144,6 +175,9 @@
       <workItem from="1728311050917" duration="125000" />
       <workItem from="1728311394923" duration="405000" />
       <workItem from="1728311805198" duration="95000" />
+      <workItem from="1728311903851" duration="210000" />
+      <workItem from="1728364477756" duration="84000" />
+      <workItem from="1728365703867" duration="13136000" />
     </task>
     <task id="LOCAL-00001" summary="1. Library-Management-System">
       <option name="closed" value="true" />

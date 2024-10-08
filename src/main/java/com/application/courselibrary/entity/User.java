@@ -28,8 +28,9 @@ public class User {
     @NotNull
     private String name;
 
-    @Email(message = "Email should be valid")
-    @NotBlank
+    @Email(message = "Email should be valid!!")
+    @NotBlank(message = "Email must required!!")
+    @Column(unique = true, nullable = false, name = "Email is already taken")
     private String email;
 
     // other properties if we want

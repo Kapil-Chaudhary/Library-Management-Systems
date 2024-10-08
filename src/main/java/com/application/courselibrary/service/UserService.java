@@ -18,4 +18,8 @@ public interface UserService {
 
     public void deleteUserById(Long id);
 
+
+    // email for validation
+    boolean isEmailTaken(String email);
+
 }
