@@ -44,6 +44,3 @@ This project is a Library Management System implemented using Spring Boot. It pr
 <img width="1512" alt="image" src="https://github.com/Yash919/Library-Management-System-via-SpringBoot/assets/60219195/511e54ea-88fa-44c5-b2ed-3681e5cd8d01">
 - Delete Authors
 <img width="1512" alt="image" src="https://github.com/Yash919/Library-Management-System-via-SpringBoot/assets/60219195/b028ab5f-6eca-4113-b6e6-6b7894cf43a8">
-
-#### Credits <br> 
-Created by Yash Mehta 🚀.
